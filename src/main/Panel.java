@@ -127,7 +127,7 @@ public class Panel extends JPanel implements Runnable {
 	public void setHighScore(String strHighScore) {
 		try {
 			
-			File highScoreFile = new File("C:\\Users\\alber\\eclipse-workspace\\BIT_RUN_V_1\\res\\ui\\highScore.txt");
+			File highScoreFile = new File("res/ui/highScore.txt");
 			
 			FileWriter fileWriter = new FileWriter(highScoreFile, false);
 			BufferedWriter writer = new BufferedWriter(fileWriter);
@@ -145,7 +145,7 @@ public class Panel extends JPanel implements Runnable {
 	public int getHighScore(int highScore) {
 
 		try {
-			FileReader fr = new FileReader("C:\\Users\\alber\\eclipse-workspace\\BIT_RUN_V_1\\res\\ui\\highScore.txt");
+			FileReader fr = new FileReader("res/ui/highScore.txt");
 			BufferedReader bR = new BufferedReader(fr);
 			
 			highScore = Integer.parseInt(bR.readLine());
