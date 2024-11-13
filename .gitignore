@@ -1,0 +1,20 @@
+# Eclipse specific
+.settings/
+.classpath
+.project
+
+# Compiled files
+*.class
+/bin/
+
+# Game files
+highScore.txt
+
+# OS specific
+.DS_Store
+.Thumbs.db
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
